@@ -68,7 +68,7 @@ function expressionCalculator(expr) {
 				stack.push(val2 - val1);
 			} else if(e === "/") {
 				if(val1 === 0){
-					throw new Error("TypeError: Devision by zero.");
+					throw new Error("TypeError: Division by zero.");
 				}
 				stack.push(val2 / val1);
 			} else if (e === "*") {
